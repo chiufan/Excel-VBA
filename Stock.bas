@@ -1,4 +1,3 @@
-Attribute VB_Name = "Module1"
 Sub ReadData(StockNo As String)
 Columns("A:D").Clear
 webURL = "URL;http://www.aastocks.com/tc/ltp/RTQuoteContent.aspx?symbol=" & StockNo & "&process=y"
