@@ -9,6 +9,6 @@ With ActiveSheet.QueryTables.Add(Connection:=webURL, Destination:=Range("A1"))
     .Refresh BackgroundQuery:=False
 End With
 
-Range("A8").Value = "³Ì«á§ó·s: " & Now()
+Range("A8").Value = "æœ€å¾Œæ›´æ–°: " & Now()
 ThisWorkbook.Names(1).Delete
 End Sub
